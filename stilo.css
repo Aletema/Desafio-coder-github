@@ -246,6 +246,20 @@ padding: 100px 0px 0px 100px;
     padding: 100px 0px 0px 200px;
 }
 
+.div1-footer :hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.div2-footer :hover{
+
+    transform: scale(2);
+    transition: all 2s;
+}
+.div3-footer :hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+
 /*Mobile styles*/
 
 /*Rulr / Media type / media feature / ordinary css rules*/
