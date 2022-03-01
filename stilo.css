@@ -57,31 +57,27 @@ h1 {
    
 }
 
-.logo:hover{
 
-animation: chico-grande 4s;
+.logo :hover{
+
+    animation: chico-grande 4s ease 0ms 1 normal both;
 
 }
+    
+
 
 @keyframes chico-grande {
-
-    0% {
-        border-radius: 10%;
+    0%,
+    50%,
+    100% {
+      opacity: 1;
     }
-    25% {
-        border-radius: 25%;
+  
+    25%,
+    75% {
+      opacity: 0;
     }
-    50% {
-      border-radius: 50%;
-    }
-    75%{ 
-       border-radius: 75%;
-    }
-    100%{
-        border-radius: 100%;
-    }
-
-}
+  }
 
 nav { margin: 50px 50px;
     display: inline;
@@ -287,6 +283,11 @@ padding: 100px 0px 0px 100px;
     padding-right: 20px;
 
    
+}
+
+nav {
+    padding: 0%;
+    margin: 0% ;
 }
 
 .div-header{
