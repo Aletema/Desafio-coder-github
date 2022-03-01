@@ -84,6 +84,10 @@ animation: chico-grande 4s;
 }
 
 nav { margin: 50px 50px;
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+    
 
 }
 
@@ -91,7 +95,7 @@ li{
     display: inline;
     list-style-type: none;
     padding-right: 10px;
-    background-color: sienna;   
+    background-color: rgb(120, 209, 120);
 
   
 }
